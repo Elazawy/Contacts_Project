@@ -39,11 +39,11 @@ Organize the Files: Ensure that all the necessary files (Address.cpp, Array.cpp,
 
 Compile the Project: Compile the C++ files using a C++ compiler (e.g., g++). If the files are in different directories, specify the paths correctly.
 
-```bash`
+```bash
 g++ main.cpp Contacts_book.cpp Person.cpp Address.cpp Array.cpp -o contacts_manager
 
 Run the Executable: Run the compiled executable to start the contacts manager.
-```bash` 
+```bash 
 ./contacts_manager
 Follow the Menu Prompts: Use the menu options to add, search, update, delete, or save contacts.
 
