@@ -36,14 +36,14 @@ Contacts_book.cpp: Implements the contacts_book class, which manages the list of
 main.cpp: The entry point of the application. It initializes the contacts_book and starts the main menu.
 ## How to Use:
 Organize the Files: Ensure that all the necessary files (Address.cpp, Array.cpp, Person.cpp, Contacts_book.cpp, and main.cpp) are in the same directory or adjust the include paths in the source files accordingly.
-
 Compile the Project: Compile the C++ files using a C++ compiler (e.g., g++). If the files are in different directories, specify the paths correctly.
 
-```bash```
-g++ main.cpp Contacts_book.cpp Person.cpp Address.cpp Array.cpp -o contacts_manager
-
 Run the Executable: Run the compiled executable to start the contacts manager.
-```bash```
-./contacts_manager
+
 Follow the Menu Prompts: Use the menu options to add, search, update, delete, or save contacts.
+```bash
+g++ main.cpp Contacts_book.cpp Person.cpp Address.cpp Array.cpp -o contacts_manager
+./contacts_manager
+
+
 
